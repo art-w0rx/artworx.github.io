@@ -75,7 +75,7 @@ nav ul {
 .icons_btns{
 	width: 50px; /* Установите ширину и высоту изображений в соответствии с вашими требованиями */
 	height: 50px;
-	margin: 0 5px;
+	margin: 20px 5px;
 }
 
 .contact{
@@ -94,13 +94,25 @@ p{
 	margin-right: 30px;
 }
 
+#p1{
+	text-align: center;
+}
+
 nav ul li {
 	margin-right: 20px;
+}
+
+.contacts_bg{
+	background-image: url("img/contacts_bg.png");
+	background-size: cover; /* Адаптирует изображение к размерам элемента */
+	overflow: hidden;
+	background-position: center; /* Выравнивает изображение по центру */
 }
 
 section {
 	color: #fff;
 }
+
 .section_bg{
 	background-image: url("data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBw8PDxUPDw8VFRUVFRUVFRUVFRUVFQ8PFRUWFhUVFRUYHSggGBolHRUVITEhJSkrLi4uFx8zODMtNygtLisBCgoKDQ0NDg0NDisZFRkrKysrLTcrKzcrKzctKysrKy0rNy0rKy03LTctKys3Ky0rKystKysrKysrKysrKysrK//AABEIALcBEwMBIgACEQEDEQH/xAAYAAEBAQEBAAAAAAAAAAAAAAAAAQIEB//EABcQAQEBAQAAAAAAAAAAAAAAAAABEQL/xAAXAQEBAQEAAAAAAAAAAAAAAAAAAQMC/8QAFBEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEQMRAD8A9dFRi2KgAqaICiRQDDQGbGa3UojClJQCqgqC4gICAAAhC0BUNATA0qBgaaBKGmilLAqol5AQdlTGtFGBrEsBlFwAKAIaIDSCAqACCoAIAWMt1kEwqgMmNYYDGGNYYDNRvEwVkaxMQQXCwEEUFBRHWio6AsFQYqNWMiKgCpgqYAigIUUEBAQUBKKyAAAqAKhABAApioCVGqgJhIoCYqoDrKCiAqAx1GigwKAiKgAFBFRQSstVKCCoAioAaAAaAEAAAEoqYCCoAJFBUVAdYCiUVEFQKolRpmoIlaSgyKAIACKgIVagIqAAYUATFAKKCC4lANKgAACWKmgCoDrgCgAAgAVlRBEUBEVAQKgKhQRAUVEUBIpgCVUigmC4AIqUBAARQACgg0gjqRUVVAARUQEVFEqKiCVFqAIpQQAARQQXAEgUgCKkBTRAVKsKCCABolBoZlNBpF1BHUAqgCAioAigJUWsgiVUADQEwAEUgAqRQRGkwGRcAQVKBq6gBYljSUEABBQCUQB1gKCUEAAAogJUWsgIqAJVMBEaJAIACYEUBFAQAQRQVkaqAhQAxGkwEBRExGtAdIYCgUUQFQRFQEqFoCUwAAAQUBMSRpADDFBIBoIKAgACKgIKgAigACAugOkBVQBBAAEVASpjSUGQAFwi2Azhi1AQEBoIAIAAACAAioAACUxUAUBANQHSAqiUABAFSggIAJQBFgAqJQEZABoAAwBUpQARQRKgAAAQAAAGUAH/2Q==");
 	background-size: cover; /* Адаптирует изображение к размерам элемента */
