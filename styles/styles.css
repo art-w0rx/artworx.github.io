@@ -67,7 +67,7 @@ header {
  white-space: nowrap;
 	list-style-type: none;
 	display: flex; /* Добавляем flex для кнопок в одну линию */
-	justify-content: center; /* Выравнивание кнопок по центру */
+	justify-content: left; /* Выравнивание кнопок по центру */
 	margin-bottom: 20px;
 }
 
@@ -81,7 +81,6 @@ header {
 	border-radius: 5%;
 	font-size: 18px;
 	margin: 10px;
- margin-left: 50px;
 }
 
 .menu_btns_group:hover {
