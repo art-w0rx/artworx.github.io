@@ -69,7 +69,6 @@ header {
 	display: flex; /* Добавляем flex для кнопок в одну линию */
 	justify-content: center; /* Выравнивание кнопок по центру */
 	margin-bottom: 20px;
- padding-left: calc(50vw - 50%);
 }
 
 .menu_btns_group{
@@ -81,7 +80,7 @@ header {
 	cursor: pointer;
 	border-radius: 5%;
 	font-size: 18px;
-	margin: 10px;
+	margin-left: 30px;
 }
 
 .menu_btns_group:hover {
