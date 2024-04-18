@@ -67,10 +67,12 @@ header {
  white-space: nowrap;
 	list-style-type: none;
 	display: flex; /* Добавляем flex для кнопок в одну линию */
-	justify-content: center; /* Выравнивание кнопок по центру */
+	justify-content: left; /* Выравнивание кнопок по центру */
 	margin-bottom: 20px;
  border-left: 1px;
  border-right: 1px;
+ left: 50%;
+ width: 100px;
 }
 
 .menu_btns_group{
