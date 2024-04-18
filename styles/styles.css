@@ -69,7 +69,8 @@ header {
 	display: flex; /* Добавляем flex для кнопок в одну линию */
 	justify-content: center; /* Выравнивание кнопок по центру */
 	margin-bottom: 20px;
- width: 60px;
+ border-left: 1px;
+ border-right: 1px;
 }
 
 .menu_btns_group{
