@@ -81,6 +81,7 @@ header {
 	border-radius: 5%;
 	font-size: 18px;
 	margin: 10px;
+ margin-left: 1%;
 }
 
 .menu_btns_group:hover {
