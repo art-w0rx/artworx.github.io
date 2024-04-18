@@ -113,8 +113,8 @@ section {
 	color: #fff;
 }
 
-.section_bg{
-	background-image: url("img/bg.webp");
+.about_bg{
+	background-image: url("img/about_bg.webp");
 	background-size: cover; /* Адаптирует изображение к размерам элемента */
 	overflow: hidden;
 	background-position: center; /* Выравнивает изображение по центру */
