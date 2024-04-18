@@ -69,8 +69,8 @@ header {
 	display: flex; /* Добавляем flex для кнопок в одну линию */
 	justify-content: left; /* Выравнивание кнопок по центру */
 	margin-bottom: 20px;
- width: 200px;
- left: 300px;
+ padding-left: 100px;
+ padding-right: 100px;
 }
 
 .menu_btns_group{
