@@ -10,7 +10,7 @@ body {
 }
 
 .head_bg{
-	background-image: url("img/bg.jpg");
+	background-image: url("https://media.licdn.com/dms/image/D4D16AQG23uUIqhqpGQ/profile-displaybackgroundimage-shrink_350_1400/0/1712049507569?e=1718841600&v=beta&t=jC3QVZKs8Fk9ehONedTp_OtpvPkDdedS4okpe4VgsnM");
 	background-size: cover; /* Адаптирует изображение к размерам элемента */
 	overflow: hidden;
 	background-position: center; /* Выравнивает изображение по центру */
@@ -103,7 +103,7 @@ nav ul li {
 }
 
 .contacts_bg{
-	background-image: url("img/contacts_bg.jpg");
+	background-image: url("https://kartinki.pics/uploads/posts/2021-07/1625492653_33-kartinkin-com-p-sots-seti-fon-krasivie-foni-34.jpg");
 	background-size: cover; /* Адаптирует изображение к размерам элемента */
 	overflow: hidden;
 	background-position: center; /* Выравнивает изображение по центру */
