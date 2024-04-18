@@ -67,8 +67,9 @@ header {
  white-space: nowrap;
 	list-style-type: none;
 	display: flex; /* Добавляем flex для кнопок в одну линию */
-	justify-content: left; /* Выравнивание кнопок по центру */
+	justify-content: center; /* Выравнивание кнопок по центру */
 	margin-bottom: 20px;
+ padding-left: calc(50vw - 50%);
 }
 
 .menu_btns_group{
