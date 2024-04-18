@@ -4,8 +4,8 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="keywords" content="BVR, bvr, b9v6r, Vitalii, Bulatnikov, github, blog, site, Vialii Bulatnikov site">
-   	<meta name="description" content="Personal site about Vitalii Bulatnikov">
-    	<meta name="author" content="Vitalii Bulatnikov">
+	<meta name="description" content="Personal site about Vitalii Bulatnikov">
+	<meta name="author" content="Vitalii Bulatnikov">
 	<title>Vitalii Bulatnikov</title>
 	<link rel="shortcut icon" type="image/png" href="styles/img/ava.webp"/>
 	<link rel="stylesheet" href="styles/styles.css">
@@ -15,61 +15,62 @@
 
 	<header>
 		<div class="head_bg">
-			<h1>
+			<div class="photo_and_inf_container">
 				<img src="styles/img/ava.webp" alt="My avatar" class="avatar">
-				<div class="gentext">
+				<div class="inf_container">
 					<span class="name">Vitalii<br>Bulatnikov</span>
 					<span class="dealing">Python developer<br>Web Sites creator<br>Applications creator</span>
 				</div>
-			</h1>
-			<nav>
-				<ul>
-					<li><button id="about-btn">About me</button></li>
-					<li><button id="portfolio-btn">My projects</button></li>
-					<li><button id="contact-btn">My contacts</button></li>
-				</ul>
-			</nav>
-		</div>
+			</div>
+			<div class="menu_btns_container">
+				<button class = "menu_btns_group" id="about-btn">About me</button>
+				<button class = "menu_btns_group" id="portfolio-btn">My projects</button>
+				<button class = "menu_btns_group" id="contact-btn">My contacts</button>
+			</div>
 	</header>
   
-	<section id="about">
-		<div class="about_bg">
-		<h2>About me</h2>
-		<p>
-			I'm a beginner developer. I'm interest in the direction of cross-platform development (the code is written once, works on all platforms (desktop-pc)), in addition I'm interested in mobile game development and web application development . 
-
+	<section class = "about_me_section" id="about_me_section">
+		<div class="about_me_bg">
+			<span class="about_me_head">About me</span>
+			<span class="about_me_text">
+I'm a beginner developer. I'm interest in the direction of cross-platform development (the code is written once, works on all platforms (desktop-pc)), in addition I'm interested in mobile game development and web application development. 
 I've good knowledge in the Python programming language, also have a little experience in developing mobile games on Unity and Godot engines, Android Studio, Adobe Photoshop, Inkscape, Blender3D, MySQL, WordPress(HTML, CSS, JS), Flutter
 
 Currently I'm looking for a job developer for a junior position. Unfortunately I don't have enough knowledge and experience to qualify for a higher position, but I am willing and ready to learn new things and develop in the areas I am interested in, so I am also considering internship opportunities.
 
 I have a work permit to work on the territory of the European Union, at the moment I am on the territory of Italy. 
 I look forward to hearing your suggestions.
-		</p>
+			</span>
+		</div>
 	</section>
 
-	<section id="portfolio" style="display: none;">
-		<h2>My projects</h2>
-		<div class="portfolio-item">
-			<p id="p1">Will be added later</p>
+	<section class = "portfolio_section" id="portfolio_section">
+		<div class="portfolio_bg">
+			<span class="portfolio_head">My projects</span>
+			<span class="portfolio_text">Will be added later</span>
 		</div>
 	</section>
 	
-	<section id="contact" style="display: none;">
-		<div class="contacts_bg">
-		<h2>Contact Me</h2>
-		<div class="contacts_btns">
-			<a href="https://t.me/b9v6r"><img class="icons_btns" src="styles/img/telegram.png" alt="Telegram"></a>
-			<a href="https://www.facebook.com/b9v6r/"><img class="icons_btns" src="styles/img/facebook.png" alt="Facebook"></a>
-			<a href="https://www.linkedin.com/in/b9v6r/"><img class="icons_btns" src="styles/img/linkedin.png" alt="LinkedIn"></a>
-			<a href="https://join.skype.com/invite/JvQEZczC8Vri"><img class="icons_btns" src="styles/img/skype.png" alt="Skype"></a>
+	<section class = "contact_section" id="contact_section">
+		<div class="contact_bg">
+			<span class="contact_head">Contact Me</span>
+			<div class="contact_btns_container">
+				<a href="https://t.me/b9v6r"><img class="contact_btns" src="styles/img/telegram.png" alt="Telegram"></a>
+				<a href="https://www.facebook.com/b9v6r/"><img class="contact_btns" src="styles/img/facebook.png" alt="Facebook"></a>
+				<a href="https://www.linkedin.com/in/b9v6r/"><img class="contact_btns" src="styles/img/linkedin.png" alt="LinkedIn"></a>
+				<a href="https://join.skype.com/invite/JvQEZczC8Vri"><img class="contact_btns" src="styles/img/skype.png" alt="Skype"></a>
+			</div>
 		</div>
 	</section>
 
 	<footer>
-		©Created in 2024
+		<span class="footer_text">©Created in 2024</span>
 	</footer>
-
+	
+	<button onclick="scroll_up()" class = "scroll_up_btn" id="scroll_up_btn">&#9650;</button>
+	
 	<script src="scripts/scripts.js"></script>
 	
 </body>
+
 </html>
