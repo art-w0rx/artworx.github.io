@@ -10,7 +10,7 @@ body {
 }
 
 .head_bg{
-	background-image: url("https://media.licdn.com/dms/image/D4D16AQG23uUIqhqpGQ/profile-displaybackgroundimage-shrink_350_1400/0/1712049507569?e=1718841600&v=beta&t=jC3QVZKs8Fk9ehONedTp_OtpvPkDdedS4okpe4VgsnM");
+	background-image: url("img/bg.webp");
 	background-size: cover; /* Адаптирует изображение к размерам элемента */
 	overflow: hidden;
 	background-position: center; /* Выравнивает изображение по центру */
@@ -103,7 +103,7 @@ nav ul li {
 }
 
 .contacts_bg{
-	background-image: url("https://kartinki.pics/uploads/posts/2021-07/1625492653_33-kartinkin-com-p-sots-seti-fon-krasivie-foni-34.jpg");
+	background-image: url("img/contacts_bg.webp");
 	background-size: cover; /* Адаптирует изображение к размерам элемента */
 	overflow: hidden;
 	background-position: center; /* Выравнивает изображение по центру */
@@ -114,7 +114,7 @@ section {
 }
 
 .section_bg{
-	background-image: url("data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBw8PDxUPDw8VFRUVFRUVFRUVFRUVFQ8PFRUWFhUVFRUYHSggGBolHRUVITEhJSkrLi4uFx8zODMtNygtLisBCgoKDQ0NDg0NDisZFRkrKysrLTcrKzcrKzctKysrKy0rNy0rKy03LTctKys3Ky0rKystKysrKysrKysrKysrK//AABEIALcBEwMBIgACEQEDEQH/xAAYAAEBAQEBAAAAAAAAAAAAAAAAAQIEB//EABcQAQEBAQAAAAAAAAAAAAAAAAABEQL/xAAXAQEBAQEAAAAAAAAAAAAAAAAAAQMC/8QAFBEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEQMRAD8A9dFRi2KgAqaICiRQDDQGbGa3UojClJQCqgqC4gICAAAhC0BUNATA0qBgaaBKGmilLAqol5AQdlTGtFGBrEsBlFwAKAIaIDSCAqACCoAIAWMt1kEwqgMmNYYDGGNYYDNRvEwVkaxMQQXCwEEUFBRHWio6AsFQYqNWMiKgCpgqYAigIUUEBAQUBKKyAAAqAKhABAApioCVGqgJhIoCYqoDrKCiAqAx1GigwKAiKgAFBFRQSstVKCCoAioAaAAaAEAAAEoqYCCoAJFBUVAdYCiUVEFQKolRpmoIlaSgyKAIACKgIVagIqAAYUATFAKKCC4lANKgAACWKmgCoDrgCgAAgAVlRBEUBEVAQKgKhQRAUVEUBIpgCVUigmC4AIqUBAARQACgg0gjqRUVVAARUQEVFEqKiCVFqAIpQQAARQQXAEgUgCKkBTRAVKsKCCABolBoZlNBpF1BHUAqgCAioAigJUWsgiVUADQEwAEUgAqRQRGkwGRcAQVKBq6gBYljSUEABBQCUQB1gKCUEAAAogJUWsgIqAJVMBEaJAIACYEUBFAQAQRQVkaqAhQAxGkwEBRExGtAdIYCgUUQFQRFQEqFoCUwAAAQUBMSRpADDFBIBoIKAgACKgIKgAigACAugOkBVQBBAAEVASpjSUGQAFwi2Azhi1AQEBoIAIAAACAAioAACUxUAUBANQHSAqiUABAFSggIAJQBFgAqJQEZABoAAwBUpQARQRKgAAAQAAAGUAH/2Q==");
+	background-image: url("img/bg.webp");
 	background-size: cover; /* Адаптирует изображение к размерам элемента */
 	overflow: hidden;
 	background-position: center; /* Выравнивает изображение по центру */
