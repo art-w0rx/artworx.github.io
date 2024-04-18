@@ -69,6 +69,7 @@ header {
 	display: flex; /* Добавляем flex для кнопок в одну линию */
 	justify-content: left; /* Выравнивание кнопок по центру */
 	margin-bottom: 20px;
+ position: absolutive;
  left: 100px;
 }
 
