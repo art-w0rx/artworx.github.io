@@ -70,7 +70,6 @@ header {
 	justify-content: left; /* Выравнивание кнопок по центру */
 	margin-bottom: 20px;
  left: 100px;
- position: fixed;
 }
 
 .menu_btns_group{
