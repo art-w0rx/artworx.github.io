@@ -103,7 +103,7 @@ nav ul li {
 }
 
 .contacts_bg{
-	background-image: url("img/contacts_bg.png");
+	background-image: url("img/contacts_bg.jpg");
 	background-size: cover; /* Адаптирует изображение к размерам элемента */
 	overflow: hidden;
 	background-position: center; /* Выравнивает изображение по центру */
