@@ -1,34 +1,35 @@
-// JavaScript код для отображения соответствующего раздела при нажатии на кнопку
+
+//Функции кнопок меню
 document.getElementById("about-btn").addEventListener("click", function() {
-	showSection("about");
+	document.getElementById("about_me_section").scrollIntoView({ behavior: 'smooth' });
 });
 
 document.getElementById("portfolio-btn").addEventListener("click", function() {
-	showSection("portfolio");
+	document.getElementById("portfolio_section").scrollIntoView({ behavior: 'smooth' });
 });
 
 document.getElementById("contact-btn").addEventListener("click", function() {
-	showSection("contact");
+	document.getElementById("contact_section").scrollIntoView({ behavior: 'smooth' });
 });
 
-// Функция для отображения раздела и скрытия остальных
-function showSection(sectionId) {
-	// Скрыть все разделы
-	var sections = document.querySelectorAll("section");
-	sections.forEach(function(section) {
-		section.style.display = "none";
-	});
-
-	// Отобразить выбранный раздел
-	document.getElementById(sectionId).style.display = "block";
+//Функция кнопки прокрутки вверх
+function scroll_up() {
+	const scroll_up_btn_left = document.getElementById("scroll_up_btn");
+	if (document.documentElement.scrollTop > 0) {
+		window.scroll({ top: 0, left: 0, behavior: 'smooth' });
+	} else {
+		scroll_up_btn.scrollIntoView({ behavior: 'smooth' });
+	}
 }
 
-document.getElementById("mainButton").addEventListener("touchstart", function(event) {
-	event.preventDefault(); // Предотвращаем стандартное действие, чтобы избежать дополнительных событий
-	var popup = document.getElementById("popup");
-	if (popup.style.display === "none") {
-		popup.style.display = "block";
+// Функция для отображения и скрытия кнопки в зависимости от положения прокрутки
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+	const scroll_up_btn = document.getElementById("scroll_up_btn");
+	if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+		scroll_up_btn.style.display = "block";
 	} else {
-		popup.style.display = "none";
+		scroll_up_btn.style.display = "none";
 	}
-});
+}
