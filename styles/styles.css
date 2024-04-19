@@ -1,4 +1,4 @@
-/* Общие стили */
+
 body {
 	font-family: Arial, sans-serif;
 	width: 100vw; /* Ширина равна 100% ширины экрана */
@@ -33,7 +33,6 @@ header {
 .avatar {
 	width: 150px; /* Задайте желаемую ширину */
 	height: 170px; /* Задайте желаемую высоту */
-	position: absolutive; /* или absolute, в зависимости от контекста */
 	border-radius: 10%; /* Сделайте аватарку круглой */
 	border: none; /* Добавьте границу */
 	margin-top: 5px;
@@ -43,6 +42,7 @@ header {
 	margin-left: 10px;
 	text-align: none;
 }
+
 
 .name {
 	color: #15043e;
@@ -62,27 +62,38 @@ header {
 	font-weight: bold;
 }
 
+.menu_section{
+	/*background-color: #fff;*/
+	justify-content: center;
+	display: flex; /* Выравнивание кнопок по центру */
+	list-style-type: none;
+}
+
 .menu_btns_container{
- overflow-x: auto;
- white-space: nowrap;
+	/*background-color: #000;*/
+	overflow-x: auto;
+	white-space: nowrap;
 	list-style-type: none;
 	display: flex; /* Добавляем flex для кнопок в одну линию */
-	justify-content: center; /* Выравнивание кнопок по центру */
+	justify-content: left;
+	margin-top: 10px;
 	margin-bottom: 20px;
- padding-left: 190px;
- padding-right: 200px;
+	width: 365px;
 }
 
 .menu_btns_group{
- display: inline-block;
-	padding: 10px 20px;
+	display: inline-block;
+	padding: 10px 10px;
 	background-color: #333;
 	color: #fff;
 	border: none;
 	cursor: pointer;
 	border-radius: 5%;
 	font-size: 18px;
-	margin: 10px;
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-top: 10px;
+	margin-bottom: 10px;
 }
 
 .menu_btns_group:hover {
@@ -160,8 +171,13 @@ header {
 }
 
 .contact_head{
+	background-color: rgba(0, 0, 0, 0.6);
+	width: 200px;
 	margin-top: 20px;
-	color: #fff;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 10px;
+	color: rgba(255, 255, 255, 0.9);
 	font-size: 32px;
 	text-align: center;
 	display: block;
