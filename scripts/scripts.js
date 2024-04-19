@@ -33,3 +33,37 @@ function scrollFunction() {
 		scroll_up_btn.style.display = "none";
 	}
 }
+
+//Фунцкия выезжающего названия текста
+const inf_container = document.getElementById('inf_container');
+function slideInFromRight(element) {
+	let start = performance.now();
+	function animate(time) {
+		let timeFraction = (time - start) / 400; // Продолжительность анимации в секундах
+		if (timeFraction > 1) timeFraction = 1;
+		let progress = timeFraction;
+		element.style.transform = `translateX(${(1 - progress) * 100}%)`;
+		if (timeFraction < 1) {
+			requestAnimationFrame(animate);
+		}
+	}
+	requestAnimationFrame(animate);
+}
+slideInFromRight(inf_container);
+
+//Фунцкия выезжающего аватара
+const avatar = document.getElementById('avatar');
+function slideInFromLeft(element) {
+	let start = performance.now();
+	function animate(time) {
+		let timeFraction = (time - start) / 400; // Продолжительность анимации в секундах
+		if (timeFraction > 1) timeFraction = 1;
+		let progress = timeFraction;
+		element.style.transform = `translateX(${(-1 + progress) * 100}%)`;
+		if (timeFraction < 1) {
+			requestAnimationFrame(animate);
+		}
+	}
+	requestAnimationFrame(animate);
+}
+slideInFromLeft(avatar);
